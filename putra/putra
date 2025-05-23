@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wirya Syah Putra - Personal Website</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f9fafe;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(90deg, #0066ff, #00ccff);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0 102 255 / 0.3);
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+
+  nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px 0;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.07);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav a {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background: #00ccff;
+    color: #fff;
+    outline: none;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 0 20px;
+  }
+
+  section {
+    margin-bottom: 3rem;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 18px rgba(0, 204, 255, 0.15);
+    transition: box-shadow 0.3s ease;
+  }
+  section:hover {
+    box-shadow: 0 6px 22px rgba(0, 204, 255, 0.25);
+  }
+
+  section h2 {
+    color: #0066ff;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    border-bottom: 2px solid #00ccff;
+    padding-bottom: 5px;
+    letter-spacing: 1.1px;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.4rem;
+  }
+  ul li {
+    margin-bottom: 8px;
+  }
+
+  .contact-info p,
+  .address-info p {
+    margin: 8px 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    color: #888;
+    border-top: 1px solid #ddd;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    nav {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    main {
+      margin: 1rem auto 3rem;
+      padding: 0 15px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Wirya Syah Putra</h1>
+</header>
+
+<nav aria-label="Main navigation">
+  <a href="#about">Tentang Saya</a>
+  <a href="#skills">Keahlian</a>
+  <a href="#certificates">Sertifikat</a>
+  <a href="#hobbies">Hobi</a>
+  <a href="#contact">Kontak</a>
+  <a href="#address">Alamat</a>
+</nav>
+
+<main>
+  <section id="about" tabindex="0">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya Wirya Syah Putra, seorang individu yang penuh semangat dan bertekad untuk terus belajar dan berkembang. Saya memiliki ketertarikan yang besar terhadap teknologi, kreativitas, dan inovasi.</p>
+  </section>
+
+  <section id="skills" tabindex="0">
+    <h2>Keahlian</h2>
+    <ul>
+      <li>Pengembangan Web (HTML, CSS, JavaScript)</li>
+      <li>bongkar pasang laptop</li>
+      <li>Manajemen Proyek dan Kerja Tim</li>
+      <li>Analisis Data</li>
+    </ul>
+  </section>
+
+  <section id="certificates" tabindex="0">
+    <h2>Sertifikat</h2>
+    <ul>
+      <li>Certified Web Development - Learning-X</li>
+      <li>Pyhton programing - Learning-X</li>
+      <li>Digital Marketing - EGAO CREATIVE</li>
+      <li>ACP #1 -Hardware Fundamental</li>
+      <li>ACP #3 - Hardware Trubel Shooting -Basic level</li>
+    </ul>
+  </section>
+
+  <section id="hobbies" tabindex="0">
+    <h2>Hobi</h2>
+    <ul>
+      <li>Bermain game dan olahraga</li>
+      <li>Menjelajahi alam dan fotografi</li>
+      <li>Bermain catur dan teka-teki</li>
+      <li>Mendengarkan musik dan belajar alat musik</li>
+    </ul>
+  </section>
+
+  <section id="contact" tabindex="0" class="contact-info">
+    <h2>Kontak</h2>
+    <p>Email: wrysyhputra267@email.com</p>
+    <p>Telepon: +62 857 9584 4831</p>
+    <p>LinkedIn: <a href=https://www.instagram.com/if.no.mynameissyahputra?igsh=MXc5ZGZ6Y3lndDV4ZQ== rel="noopener noreferrer">instagram.com/in/wiryasyahputra</a></p>
+  </section>
+
+  <section id="address" tabindex="0" class="address-info">
+    <h2>Alamat</h2>
+    <p>Jl. Menteng granit </p>
+    <p>Kota Jakarta selatan, Kel.Pasar Manggis</p>
+    <p>Kode Pos: 12970</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Wirya Syah Putra. Okay, that's all, thank you.
+</footer>
+
+</body>
+</html>
+
